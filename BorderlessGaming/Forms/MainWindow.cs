@@ -1230,5 +1230,10 @@ fav.PositionX.ToString()), out int favPositionX);
         {
             Tools.GotoSite("https://rainway.io/?ref=borderlessgaming3");
         }
+
+        private async void refreshButton_Click(object sender, EventArgs e)
+        {
+            await RefreshProcesses();
+        }
     }
 }
